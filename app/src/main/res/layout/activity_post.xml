@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ImagesActivity"
+    android:padding="16dp"
+    android:background="@drawable/grad_bg">
+
+
+    <Button
+        android:id="@+id/button_choose_image"
+        android:layout_width="107dp"
+        android:layout_height="38dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Choose file"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/edit_text_post_title"
+        android:layout_width="259dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_toEndOf="@+id/button_choose_image"
+        android:layout_toRightOf="@id/button_choose_image"
+        android:background="@drawable/roundedtext"
+        android:hint="Enter Post Title"
+        android:paddingLeft="15dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_upload"
+        android:layout_marginBottom="29dp" />
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="103dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginLeft="147dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Post"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="367dp"
+        android:layout_height="264dp"
+        android:layout_above="@+id/et_post_topic"
+        android:layout_below="@id/edit_text_post_title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="83dp" />
+
+    <EditText
+        android:id="@+id/et_post_topic"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_above="@+id/et_post_description"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/roundedtext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Post Topic"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp" />
+
+    <EditText
+        android:id="@+id/et_post_description"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_above="@+id/progress_bar"
+        android:layout_marginBottom="43dp"
+        android:autofillHints=""
+        android:background="@drawable/roundedtext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Description"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Application University Library</string>
+    <string name="post_desc_goes_here">POST DESC GOES HERE</string>
+    <string name="post_title_goes_here">POST TITLE GOES HERE</string>
+    <string name="post_topic_goes_here">POST TOPIC GOES HERE</string>
+    <string name="uname">Username</string>
+</resources>

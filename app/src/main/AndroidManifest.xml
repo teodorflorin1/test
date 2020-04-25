@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.applicationuniversitylibrary">
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Business.PostActivityBusiness"></activity>
+        <activity android:name=".Business.BusinessActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".Economics.PostActivityEconomics" />
+        <activity android:name=".Economics.EconomicsActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".Mathematics.PostActivityMathematics" />
+        <activity android:name=".Mathematics.MathematicsActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".Gaming.PostActivityGaming" />
+        <activity android:name=".Gaming.GamingActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".Computing.ComputingActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".Computing.PostActivityComputing" />
+        <activity android:name=".Activities.PostReviewActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".Activities.AceActivity" />
+        <activity android:name=".WebViews.CareersWebView" />
+        <activity android:name=".Activities.WellbeingActivity" />
+        <activity android:name=".Models.Pop"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+        <activity android:name=".Models.PopStudent"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+        <activity android:name=".Models.PopLibrary"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+        <activity android:name=".Models.PopActive"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+        <activity android:name=".WebViews.SfeWebview" />
+        <activity android:name=".Activities.SfeActivity" />
+        <activity android:name=".Activities.PostDetailActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".Activities.PostActivity" />
+        <activity android:name=".Activities.ChatActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".Activities.ForumActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".Activities.ImagesActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".PostBook" />
+        <activity android:name=".Activities.StudentSupportActivity" />
+        <activity android:name=".WebViews.Webview" />
+        <activity android:name=".Timetable" />
+        <activity android:name=".Books_Menu.Books" />
+        <activity android:name=".Activities.HomeNav" />
+        <activity android:name=".Floor_plan3" />
+        <activity android:name=".Floor_plan2" />
+        <activity android:name=".Floor_plan" />
+        <activity android:name=".Menu" />
+        <activity android:name=".Models.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.MainActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
+        <activity android:name=".Register"
+            android:windowSoftInputMode="adjustPan"/>
+    </application>
+
+</manifest>

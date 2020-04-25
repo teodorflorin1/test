@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    app:cardCornerRadius="8dp"
+    android:background="#D3D3D3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="6dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Active Comunities"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keep Your Mind And Body Active"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="40dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:id="@+id/textViewTTT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gym Buddies - every day at 20:00 p.m"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dancing Wednesday - weekly at 19:00 p.m"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp" />
+
+
+
+        <TextView
+            android:id="@+id/textViewTT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Thursday Evening Aerobics - weekly 18:00 p.m "
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:id="@+id/textViewT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saturday Morning Run - weekly at 06:00 a.m"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sunday Yoga - weekly at 09:00 a.m"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp" />
+
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eat Healthy. Live Healthy."
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activities will take place inside our campus."
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp" />
+
+
+    </LinearLayout>
+</LinearLayout>

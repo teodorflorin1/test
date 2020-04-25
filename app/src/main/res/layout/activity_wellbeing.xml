@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.WellbeingActivity"
+    android:background="@drawable/grad_bg">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="150dp"
+        android:layout_height="144dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+
+    <TextView
+        android:id="@+id/tv_wellbeing"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginLeft="97dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
+        android:layout_marginBottom="109dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Student Wellbeing"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:background="?android:attr/windowBackground"
+        app:itemIconTint="@android:color/background_dark"
+        app:itemTextColor="@android:color/black"
+        app:menu="@menu/bottom_navigation" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/linearLayout_main"
+        android:layout_width="wrap_content"
+        android:layout_height="217dp"
+        android:layout_below="@+id/tv_wellbeing"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="303dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/white"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/cafe"
+                android:layout_width="339dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/cafe_image"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:id="@+id/student"
+                android:layout_width="339dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/student_image"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:id="@+id/library"
+                android:layout_width="339dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/library_image"
+                android:orientation="horizontal" />
+
+
+            <LinearLayout
+                android:id="@+id/active"
+                android:layout_width="339dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/sport_image"
+                android:orientation="horizontal" />
+
+
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="259dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Make your studenthood memorable."
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout_main"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Enjoy every single moment."
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>
